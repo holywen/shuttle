@@ -12,7 +12,7 @@ A simple shortcut menu for macOS
 
 ## Installation
 
-1. Download [Shuttle](http://fitztrev.github.io/shuttle/)
+1. Download [Shuttle](https://github.com/holywen/shuttle/releases)
 2. Copy to Applications
 
 ## Help

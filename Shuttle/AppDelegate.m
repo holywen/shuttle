@@ -72,19 +72,9 @@
     [statusItem setMenu:menu];
     [statusItem setImage: regularIcon];
     
-    // Check for AppKit Version, add support for darkmode if > 10.9
-    BOOL oldAppKitVersion = (floor(NSAppKitVersionNumber) <= 1265);
-    
-    // 10.10 or higher, dont load the alt image let OS X style it.
-    if (!oldAppKitVersion)
-    {
-        regularIcon.template = YES;
-    }
-    // Load the alt image for OS X < 10.10
-    else{
-        [statusItem setHighlightMode:YES];
-        [statusItem setAlternateImage: altIcon];
-    }
+    // Modern macOS versions (10.10+) support dynamic icons
+    // Since we now require 10.15+, we can always use template images
+    regularIcon.template = YES;
     
     launchAtLoginController = [[LaunchAtLoginController alloc] init];
     // Needed to trigger the menuWillOpen event

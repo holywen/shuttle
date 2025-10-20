@@ -27,7 +27,9 @@
 	<key>LSUIElement</key>
 	<true/>
 	<key>NSAppleEventsUsageDescription</key>
-	<string>Shuttle needs Automation privileges in Security &amp; Privacy to run applescripts</string>
+	<string>Shuttle needs Automation privileges to control Terminal.app and iTerm2 for SSH connections</string>
+	<key>NSAppleEventsUsageDescriptionAutomation</key>
+	<string>Shuttle uses AppleScript to open SSH connections in your preferred terminal application</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2016 Trevor Fitzgerald. All rights reserved.</string>
 	<key>NSMainNibFile</key>

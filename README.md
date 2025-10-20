@@ -1,5 +1,7 @@
 # Shuttle
 
+[![Xcode - Build and Analyze](https://github.com/holywen/shuttle/actions/workflows/objective-c-xcode.yml/badge.svg)](https://github.com/holywen/shuttle/actions/workflows/objective-c-xcode.yml)
+
 [![Join the chat at https://gitter.im/fitztrev/shuttle](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fitztrev/shuttle?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A simple shortcut menu for macOS
